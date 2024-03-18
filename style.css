@@ -34,11 +34,8 @@ section{
 
 .box{
     font-size: 18px;
-    width: ;
-    background-color: ;
     border-radius: 10px;
     margin: 10px;
-    padding-top: ;
 }
 
 .box-1{
@@ -64,7 +61,7 @@ section{
     gap: 10px;
     /* justify-content: center; */
     flex-wrap: wrap;
-    background-color: beige;
+    background-color: ;
 
 }
 
@@ -74,21 +71,31 @@ section{
     font-weight: 700;
     border: none;
     height: 35px;
-    width: 119.5px;
-    padding : 10px;
+    width: 115.5px;
+    /* padding : 10px; */
     color: #fff;
     background-color:  hsl(186, 14%, 43%);
 }
 
-.btns button:hover{
+button:hover{
     background-color: hsl(172, 67%, 45%);
-    transition: all 1s;
+    transition: all .5s;
+    cursor: pointer;
 }
 
-.btns .Custom{
+.btns.Custom{
     background-color: hsl(185, 41%, 84%);
 }
 
+.Custom input{
+    width: 100%;
+    padding: 9px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid skyblue;
+}
 
 .box-2{
     background-color: hsl(186, 14%, 43%);
@@ -104,6 +111,7 @@ section{
 
 .main1 button{
     padding: 10px;
+    border: none;
     border-radius: 5px;
     background-color: hsl(172, 67%, 45%);
     font-weight: 800;
